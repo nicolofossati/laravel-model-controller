@@ -11,5 +11,12 @@
 </head>
 <body>
     <h1 class="text-center">HOME PAGE</h1>
+    <ul>
+    @foreach ($movies as $movie)
+        <li>
+            {{$movie['title']}}
+        </li>
+    @endforeach
+    </ul>
 </body>
 </html>
