@@ -3,7 +3,7 @@ Oggi facciamo la nostra prima vera interazione con il database utilizzando l’O
 2 !- tramite phpMyAdmin create un nuovo database laravel_model_controller
 3 !- Importate nel vostro database la tabella movies in allegato
 4 !- inserite le vostre credenziali per il database nel file .env
-5 - Create un model Movie
+5 !- Create un model Movie
 php artisan make:model Movie
 6 - Create un controller che gestirà la rotta /
 php artisan make:controller Guest/PageController
